@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+        <layout title="Userprofile">
+                <message>Shows the details of a user</message>
+        </layout>
+</metadata>

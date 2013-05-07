@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.1.0" method="upgrade">
+        <name>Bike at Briegel</name>
+        <creationDate>April 2013</creationDate>
+        <author>Tim Thaens</author>
+        <authorEmail>thaens.tim@gmail.com</authorEmail>
+        <authorUrl>http://www.bike-at-briegel.com</authorUrl>
+        <copyright>Copyright Info</copyright>
+        <license>License Info</license>
+        <version>0.0.1</version>
+        <description>Bike at Briegel</description>
+ 
+        <files folder="site">
+                <filename>index.html</filename>
+                <filename>bikeatbriegel.php</filename>
+                <filename>controller.php</filename>
+                <folder>views</folder>
+                <folder>models</folder>
+                <folder>language</folder>
+                <folder>controllers</folder>
+        </files>
+
+        <administration>
+                <menu>Bike at Briegel</menu>
+                <files folder="admin">
+                        <filename>index.html</filename>
+                        <filename>bikeatbriegel.php</filename>
+                        <filename>controller.php</filename>
+                        <!-- views files section -->
+                 </files>
+                 <languages folder="admin">
+                        <language tag="en-GB">language/en-GB/en-GB.com_bikeatbriegel.ini</language>
+                        <language tag="en-GB">language/en-GB/en-GB.com_bikeatbriegel.sys.ini</language>
+                </languages>
+        </administration>
+</extension>
