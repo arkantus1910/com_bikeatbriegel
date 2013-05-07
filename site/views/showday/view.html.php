@@ -8,7 +8,7 @@ jimport('joomla.application.component.view');
 /**
  * HTML View class for the HelloWorld Component
  */
-class BikeAtBriegelViewBikeAtBriegel extends JViewLegacy
+class BikeAtBriegelViewShowDay extends JViewLegacy
 {
         // Overwriting JView display method
         function display($tpl = null)
